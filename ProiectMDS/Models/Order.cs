@@ -11,6 +11,6 @@ namespace MFA.Models
         public int UserId { get; set; }
         public int Date { get; set; }
         public virtual User User { get; set; }
-        public List<OrderDetails> OrderDetails { get; set; }
+        public List<OrderDetail> OrderDetail { get; set; }
     }
 }
