@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MFA.Models
+namespace MFA.DTOs
 {
-    public class Order
+    public class OrderDTO
     {
-        public int Id { get; set; }
         public int UserId { get; set; }
         public int Date { get; set; }
-        public virtual User User { get; set; }
-        public List<OrderDetails> OrderDetails { get; set; }
+        public List<int> ProductId { get; set; }
+
     }
 }
