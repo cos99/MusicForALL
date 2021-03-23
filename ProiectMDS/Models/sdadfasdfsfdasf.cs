@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 namespace MFA.Models
 {
     public class sdadfasdfsfdasf
-    {
+    { 
+        public sdadfasdfsfdasf (sdadfasdfsfdasf repp)
+        { }
     }
 }
