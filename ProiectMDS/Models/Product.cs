@@ -14,6 +14,7 @@ namespace MFA.Models
         public int Stock { get; set; }
         public float Price { get; set; }
         public string Description { get; set; }
-
+        public List<Cart> Cart { get; set; }
+        public List<OrderDetail> OrderDetail { get; set; }
     }
 }

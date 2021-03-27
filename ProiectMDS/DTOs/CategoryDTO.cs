@@ -8,6 +8,5 @@ namespace MFA.DTOs
     public class CategoryDTO
     {
         public string Name { get; set; }
-        public List<int> ProductId { get; set; }
     }
 }

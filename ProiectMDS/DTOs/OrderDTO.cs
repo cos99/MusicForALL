@@ -8,8 +8,7 @@ namespace MFA.DTOs
     public class OrderDTO
     {
         public int UserId { get; set; }
-        public int Date { get; set; }
-        public List<int> ProductId { get; set; }
+        public string Date { get; set; }
 
     }
 }
