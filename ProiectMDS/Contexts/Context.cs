@@ -20,7 +20,7 @@ namespace MFA.Contexts
         {
             if (isMigration)
             {
-                optionsBuilder.UseSqlServer(@"Server=.\;Database=BDProiectMDS2021;Trusted_Connection=True");
+                optionsBuilder.UseSqlServer(@"Server=.\;Database=MFA2021;Trusted_Connection=True");
             }
         }
         public Context() { }
