@@ -15,12 +15,12 @@ namespace MFA.Contexts
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
-        public static bool isMigration = false;
+        public static bool isMigration = true;
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (isMigration)
             {
-                optionsBuilder.UseSqlServer(@"Server=.\;Database=MFA2021;Trusted_Connection=True");
+                optionsBuilder.UseSqlServer(@"Server=.\;Database=MFA;Trusted_Connection=True");
             }
         }
         public Context() { }

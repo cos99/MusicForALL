@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MFA.Migrations
 {
-    public partial class PrimaMigratieMFA : Migration
+    public partial class MFAMigratie1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

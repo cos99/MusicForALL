@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MFA.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210405094617_PrimaMigratieMFA")]
-    partial class PrimaMigratieMFA
+    [Migration("20210405095743_MFAMigratie1")]
+    partial class MFAMigratie1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
